@@ -44,5 +44,11 @@ namespace ListBox
             }
             return true;
         }
+
+        private void LbVIew_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.lblResult.Text = this.OrgStr + this.lbVIew.Text;
+
+        }
     }
 }

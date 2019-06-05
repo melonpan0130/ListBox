@@ -43,6 +43,7 @@
             this.lbVIew.Name = "lbVIew";
             this.lbVIew.Size = new System.Drawing.Size(233, 194);
             this.lbVIew.TabIndex = 0;
+            this.lbVIew.SelectedIndexChanged += new System.EventHandler(this.LbVIew_SelectedIndexChanged);
             // 
             // lblResult
             // 
