@@ -12,6 +12,7 @@ namespace ListBox
 {
     public partial class Form1 : Form
     {
+        String orgStr = ""; // 결과 : 저장
         public Form1()
         {
             InitializeComponent();
