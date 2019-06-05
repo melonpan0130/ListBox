@@ -28,6 +28,7 @@ namespace ListBox
             if (TextCheck())
             {
                 this.lbVIew.Items.Add(this.txtList.Text); // add entry
+                this.txtList.Text = "";
             }
         }
 
